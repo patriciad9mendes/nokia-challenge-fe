@@ -1,4 +1,4 @@
 .jumbotron {
-  background-color: #d3d3d3;
+  background-color: var(--gray-dark);
   padding: 2%;
 }

@@ -6,13 +6,15 @@ import './App.css';
 
 //Components
 import Header from './components/Header.js';
+import Navbar from './components/Navbar.js';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <Header/>
-      </div>
+        <div className="flex-contaier">
+          <Header/>
+          <Navbar/>
+        </div>
     );
   }
 }
