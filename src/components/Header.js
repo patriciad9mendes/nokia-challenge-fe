@@ -10,7 +10,7 @@ class Header extends React.Component {
     return (
       <Jumbotron fluid className="jumbotron">
         <Container>
-          <h1>New App</h1>
+          <h1>Nokia - Frontend Challenge</h1>
         </Container>
       </Jumbotron>
     )
