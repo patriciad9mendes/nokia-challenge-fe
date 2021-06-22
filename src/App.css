@@ -37,7 +37,8 @@ h3 {
 }
 
 p{
-  color: var(--gray-dark);
+  padding: 0 .5rem;
+  color: var(--black);
 }
 
 .flex-container {
@@ -52,4 +53,8 @@ p{
 .flex-container > * {
   padding: 15px;
   flex: 1 100%;
+}
+
+.taskList {
+  padding: 0 3rem;
 }
