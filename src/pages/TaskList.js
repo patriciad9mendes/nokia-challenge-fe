@@ -21,7 +21,7 @@ class TaskList extends React.Component {
   getData() {
     let tasks = this.state.tasks;
 
-    fetch("http://localhost:3008/api/tasks")
+    fetch("http://localhost:8080/api/tasks")
         .then(response => response.json())
         .then(data => this.setState({tasks: data}));
   }
@@ -33,7 +33,7 @@ class TaskList extends React.Component {
     );
 
     return (
-      <div className="taskList">
+      <div>
         <h2>Task List</h2>
         {tasksComponent}
       </div>
