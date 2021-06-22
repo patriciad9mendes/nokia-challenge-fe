@@ -42,12 +42,11 @@ p{
 
 .flex-container {
   text-align: center;
-  margin: 2rem auto;
+  margin: 0rem;
   float: center;
   display: flex;
   flex-flow: row wrap;
   text-align: center;
-  max-width: 1400px;
 }
 
 .flex-container > * {
