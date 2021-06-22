@@ -11,7 +11,7 @@ import Navbar from './components/Navbar.js';
 class App extends React.Component {
   render() {
     return (
-        <div className="flex-contaier">
+        <div className="flex-container">
           <Header/>
           <Navbar/>
         </div>

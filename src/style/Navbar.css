@@ -24,7 +24,7 @@
 
 .nav-categories {
   text-align: left;
-  flex: 0;
+  flex: 0.15;
   order: 1;
 }
 
