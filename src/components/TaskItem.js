@@ -7,7 +7,7 @@ class TaskItem extends React.Component {
       <div className="taskList">
         <ul>
           <li>
-            <p>{this.props.item.text}</p>
+            <p>{this.props.task.text}</p>
           </li>
         </ul>
       </div>
